@@ -1,0 +1,67 @@
+/**select all elements
+*
+{
+    font-family: monospace;
+}
+
+/**
+*
+{
+    border:2px solid red;/**which gonna apply to every element in theweb page**/
+/**}
+
+body
+{
+    font-size : 22px;
+    border:3px solid black;/**which is not inherided**/
+    /**color:purple;
+}
+h1,h2{
+    color:blue;
+}
+/**!imortant overrides every para in page
+
+p{
+    color:purple;
+
+}
+/**A <span> element which is used to color a part of a text:
+p span{
+       text-transform: uppercase;
+       background-color: gold;
+}
+.highlight{
+    text-transform: uppercase;
+    background-color:burlywood
+    ;
+}
+/**To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:
+.maggie
+{
+    color:grey;
+}
+/**The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.**/
+/**It is not advisable to use IDs as CSS selectors because if another element in the page 
+uses the same/similar style, you would have to write the same CSS again.
+#second
+{
+    font-style: italic;
+}**/
+
+body{
+    background-color: palegoldenrod;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    /**color:rgb(255,0,0);**/
+    /**color:rgb(0,0,255)**/
+    color:rgb(0,0,0)
+}
+
+p{
+    /**color:rgb(255,0,0); rgb has 0-255 max & a has 0-1 which makes completly transprent
+    and #0000;is a hexdecimal colors direct representation of colors.
+    rgb(colors,saturation,light);
+    color:rgba(0,0,0,0.5);**/
+    color:#333;
+}
